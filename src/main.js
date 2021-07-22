@@ -4,7 +4,7 @@ const x = localStorage.getItem('x');
 const xObject = JSON.parse(x);
 
 const hashMap = xObject || [
-    { logo: 'X', url: 'xiedaimala.com' },
+    { logo: 'X', url: 'https://xiedaimala.com/' },
     { logo: 'M', url: 'https://developer.mozilla.org/zh-CN/' }
 ];
 
