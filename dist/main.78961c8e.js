@@ -123,11 +123,11 @@ var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'X',
-  url: 'xiedaimala.com'
-}, {
   logo: 'M',
   url: 'https://developer.mozilla.org/zh-CN/'
+}, {
+  logo: 'J',
+  url: 'https://zh.javascript.info/'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -180,4 +180,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.cc5c7ce7.js.map
+//# sourceMappingURL=main.78961c8e.js.map

@@ -112,6 +112,7 @@ body {background: #eee;}
 }
 .siteList .addSite {
     border: 1px solid #ddd;
+    border-radius: 4px;
     background: white;
     width: 160px;
     display: flex;
@@ -136,4 +137,4 @@ body {background: #eee;}
     align-items: center;
 }
 
-/*# sourceMappingURL=style.2f965433.css.map */
+/*# sourceMappingURL=style.85a3faf2.css.map */
