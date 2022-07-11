@@ -42,12 +42,15 @@ body {background: #eee;}
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+.ipt:focus {
+    outline: 1px solid #42b983;
+}
 .search button {
     white-space: nowrap;
     padding: 0 28px;
     border: none;
     border-radius: 4px;
-    background: #0282B9;
+    background: #42b983;
     color: white;
     font-size: 15px;
 }
@@ -84,11 +87,15 @@ body {background: #eee;}
     align-items: center;
     flex-direction: column;
     background: white;
-    border: 1px solid #ddd;
+    border: 1.5px solid #ddd;
     border-radius: 4px;
     padding: 20px 0;
     position: relative;
 }
+.siteList .site:hover {
+    border: 1.5px solid rgb(66, 185, 131);
+}
+
 .siteList .site > .close {
     position: absolute;
     top: 0px;
@@ -111,7 +118,7 @@ body {background: #eee;}
     margin-top: 4px;;
 }
 .siteList .addSite {
-    border: 1px solid #ddd;
+    border: 1.5px solid #ddd;
     border-radius: 4px;
     background: white;
     width: 160px;
@@ -120,6 +127,9 @@ body {background: #eee;}
     align-items: center;
     flex-direction: column;
     padding: 20px 0;
+}
+.siteList .addSite:hover {
+    border: 1.5px solid rgb(66, 185, 131);
 }
 .siteList .addSite .icon {
     width: 53px;
